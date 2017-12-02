@@ -8,3 +8,5 @@ services:
             - "3306:3306"
         environment:
             - "MYSQL_ROOT_PASSWORD"
+        volumes:
+            - /mydata/mysql:/var/lib/mysql
