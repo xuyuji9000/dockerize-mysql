@@ -10,3 +10,4 @@ services:
             - "MYSQL_ROOT_PASSWORD"
         volumes:
             - /mydata/mysql:/var/lib/mysql
+            - ./config:/etc/mysql/mysql.conf.d
