@@ -4,10 +4,10 @@
 
 case "$1" in
 
-    "run" )
+    "up" )
 	docker-compose up -d
         ;;
     * )
-        echo "run: run containers"
+        echo "up: run containers"
 
 esac
